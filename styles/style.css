@@ -15,7 +15,9 @@
   max-height: 756px;
   /* выше установили ограничения для секции */
   display: flex;
+  position: relative;
   align-items: center;
+  border: 1px solid red;
 }
 
 .logo_place_header {
@@ -27,6 +29,7 @@
 }
 
 .header__title {
+  margin: 0;
   position: absolute;
   left: 64px;
   width: 730px;
@@ -65,6 +68,59 @@
   width: 568px;
   background-color: #2f80ed;
   z-index: -1;
+}
+
+.content {
+  display: flex;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  /*min-height ????*/
+}
+
+.two-columns {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief {
+  margin: 0;
+  padding: 0;
+  width: 175px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.two-columns__paragraph {
+  margin-bottom: 30px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.span-accent {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin-bottom: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
