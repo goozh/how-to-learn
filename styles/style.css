@@ -143,15 +143,17 @@
 
 .table {
   width: 1100px;
-  padding: 60px 0 0;
   margin: 0 auto;
+  padding: 0;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .table__cell {
   list-style: none;
   width: 250px;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -222,20 +224,16 @@
   color: white;
 }
 
-.table_theme_dark {
-  padding: 80px 0 0;
-}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  /*margin-right: 0;
-  margin-top: 80px;*/
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .footer {
   background-color: black;
-  min-height: 250px;
   padding: 60px 0 40px;
 }
 
@@ -247,12 +245,12 @@
   justify-content: space-between;
   margin: 0 auto;
   padding: 0;
+  height: 250px;
 }
 
 .footer__column {
   display: flex;
   flex-direction: column;
-  height: 250px;
 }
 
 .footer__column_content_copyright {
