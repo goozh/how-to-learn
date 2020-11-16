@@ -1,0 +1,1 @@
+Get-ChildItem -Recurse -Directory | ForEach-Object {New-Item -ItemType file -Path "$($_.FullName)" -Name "$($_.Name).css" }
