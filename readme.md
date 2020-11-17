@@ -1,9 +1,8 @@
 # How to learn
----
 "How to learn" is a training project for Yandex Praktikum
 
-## Features
 ---
+## Features
 
 * Flexbox layout
 * BEM file structure
