@@ -8,3 +8,6 @@
 * BEM file structure
 * Animation
 
+## Link to GitHub-Pages:
+
+https://goozh.github.io/how-to-learn/
